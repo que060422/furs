@@ -1,0 +1,874 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Furs. | Every Paw Deserves a Home</title>
+  <meta
+    name="description"
+    content="Meet adoptable pets, learn about adoption, and support animal rescue with Furs."
+  >
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Nunito:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="furstyle.css">
+  <script src="furscript.js" defer></script>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header class="site-header">
+    <div class="container navbar">
+
+      <a href="#home" class="brand" aria-label="Furs home">
+        <span class="brand-icon" aria-hidden="true">🐾</span>
+        <span>furs<span class="brand-period">.</span></span>
+      </a>
+
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#adopt">Adopt</a>
+        <a href="#how-to-adopt">How It Works</a>
+        <a href="#get-involved">Get Involved</a>
+        <a href="#faqs">FAQs</a>
+      </nav>
+
+      <a href="#adopt" class="button button-primary nav-cta">
+        Find Your Friend <span aria-hidden="true">↗</span>
+      </a>
+
+    </div>
+  </header>
+
+  <main>
+
+ 
+<!-- HERO -->
+
+<section class="hero" id="home">
+  <div class="container hero-grid">
+
+    <!-- Left side: Text content -->
+    <div class="hero-content">
+
+      <span class="eyebrow">
+        <span class="eyebrow-dot"></span>
+        A little love changes everything
+      </span>
+
+      <h1>
+        Every Paw Deserves
+        <span>a Place to Call Home.</span>
+      </h1>
+
+      <p class="hero-description">
+        Every animal has a story worth telling. Help us write their
+        next chapter with love, care, and a forever home.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#adopt" class="button button-primary">
+          Meet Our Rescues <span aria-hidden="true">→</span>
+        </a>
+
+        <a href="#get-involved" class="button button-outline">
+          How You Can Help
+        </a>
+      </div>
+
+    </div>
+
+    <!-- Right side: Background image -->
+    <div
+      class="hero-visual"
+      role="img"
+      aria-label="A stray dog and cat waiting for a loving home">
+    </div>
+
+  </div>
+</section>
+
+
+    <!-- INTRO STRIP -->
+    <section class="intro-strip">
+      <div class="container intro-inner">
+        <p>More than rescue. A second chance at life.</p>
+        <span aria-hidden="true">✳</span>
+        <p>Every paw deserves love.</p>
+        <span aria-hidden="true">✳</span>
+        <p>Be part of their story.</p>
+      </div>
+    </section>
+
+    <!-- ADOPTABLE PETS -->
+    <section class="section pets-section" id="adopt">
+      <div class="container">
+
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">YOUR NEW BEST FRIEND</span>
+            <h2>Meet our <span>rescues.</span></h2>
+            <p class="section-description">
+              Different personalities, one thing in common:
+              they're all looking for someone to love.
+            </p>
+          </div>
+
+          <a href="#contact" class="text-link">
+            Ask about adoption <span aria-hidden="true">→</span>
+          </a>
+        </div>
+
+        <div class="pet-filters" aria-label="Filter pets">
+          <button
+            class="filter-btn active"
+            type="button"
+            data-filter="all"
+            aria-pressed="true"
+          >All Pets</button>
+
+          <button
+            class="filter-btn"
+            type="button"
+            data-filter="dog"
+            aria-pressed="false"
+          >Dogs</button>
+
+          <button
+            class="filter-btn"
+            type="button"
+            data-filter="cat"
+            aria-pressed="false"
+          >Cats</button>
+        </div>
+
+        <div class="pet-grid">
+
+          <article class="pet-card" data-type="dog">
+            <div class="pet-image-wrap">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXBjaLL-r1Lo9UK9L1c-UGhjbjk-FkyZZjKlPy8svD7w&s=10"
+                alt="Buddy, a friendly dog"
+                class="pet-image"
+                loading="lazy"
+              >
+              <span class="pet-status">Looking for a home</span>
+              <span class="pet-heart" aria-hidden="true">♡</span>
+            </div>
+
+            <div class="pet-info">
+              <div class="pet-title-row">
+                <h3>Buddy</h3>
+                <span class="pet-type">🐶 Dog</span>
+              </div>
+              <p class="pet-details">Playful · Friendly · Loyal</p>
+              <p class="pet-description">
+                A happy companion who loves attention and playtime.
+              </p>
+              <a href="#contact" class="pet-link">
+                Meet Buddy <span aria-hidden="true">→</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="pet-card" data-type="cat">
+            <div class="pet-image-wrap">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpGZiYfmeI78CjgQf1UuF2d1CICjRdY7S5RsoYc-O6uQ&s=10"
+                alt="Mochi, a sweet cat"
+                class="pet-image"
+                loading="lazy"
+              >
+              <span class="pet-status">Looking for a home</span>
+              <span class="pet-heart" aria-hidden="true">♡</span>
+            </div>
+
+            <div class="pet-info">
+              <div class="pet-title-row">
+                <h3>Mochi</h3>
+                <span class="pet-type">🐱 Cat</span>
+              </div>
+              <p class="pet-details">Gentle · Curious · Cozy</p>
+              <p class="pet-description">
+                A sweet little friend who enjoys calm moments and cuddles.
+              </p>
+              <a href="#contact" class="pet-link">
+                Meet Mochi <span aria-hidden="true">→</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="pet-card" data-type="dog">
+            <div class="pet-image-wrap">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlfFjxHP03cDrZZ4S5HFi2EvD4b4_9G1SS1ytcB9t-qumwFUlelKwWLM8D&s=10"
+                alt="Peanut, an energetic dog"
+                class="pet-image"
+                loading="lazy"
+              >
+              <span class="pet-status">Looking for a home</span>
+              <span class="pet-heart" aria-hidden="true">♡</span>
+            </div>
+
+            <div class="pet-info">
+              <div class="pet-title-row">
+                <h3>Peanut</h3>
+                <span class="pet-type">🐶 Dog</span>
+              </div>
+              <p class="pet-details">Energetic · Sweet · Curious</p>
+              <p class="pet-description">
+                A little explorer ready for adventures with a loving family.
+              </p>
+              <a href="#contact" class="pet-link">
+                Meet Peanut <span aria-hidden="true">→</span>
+              </a>
+            </div>
+          </article>
+
+        </div>
+
+        <p class="pet-disclaimer">
+          Pet names, profiles, and availability shown here are sample content.
+          Replace them with verified rescue information.
+        </p>
+
+      </div>
+    </section>
+
+    <!-- HOW TO ADOPT -->
+    <section class="section adoption-section" id="how-to-adopt">
+      <div class="container">
+
+        <div class="section-heading centered-heading">
+          <span class="eyebrow">A NEW CHAPTER STARTS HERE</span>
+          <h2>How adoption <span>works.</span></h2>
+          <p class="section-description">
+            Bringing a new friend home should feel special.
+            Here's a simple guide to getting started.
+          </p>
+        </div>
+
+        <div class="steps-grid">
+
+          <article class="step-card">
+            <div class="step-number">01</div>
+            <div class="step-icon">🐾</div>
+            <h3>Find Your Match</h3>
+            <p>
+              Explore our rescue profiles and discover a companion
+              whose needs fit your lifestyle.
+            </p>
+          </article>
+
+          <article class="step-card">
+            <div class="step-number">02</div>
+            <div class="step-icon">📝</div>
+            <h3>Apply to Adopt</h3>
+            <p>
+              Tell us about your home, experience, and plans
+              for caring for your future companion.
+            </p>
+          </article>
+
+          <article class="step-card">
+            <div class="step-number">03</div>
+            <div class="step-icon">💚</div>
+            <h3>Meet & Connect</h3>
+            <p>
+              Get to know your potential new friend and ask
+              questions about their care and personality.
+            </p>
+          </article>
+
+          <article class="step-card">
+            <div class="step-number">04</div>
+            <div class="step-icon">🏡</div>
+            <h3>Welcome Them Home</h3>
+            <p>
+              Prepare a safe space and begin a new chapter
+              filled with patience, care, and love.
+            </p>
+          </article>
+
+        </div>
+
+        <div class="adoption-note">
+          <span aria-hidden="true">ℹ</span>
+          Adoption requirements and procedures may vary by rescue organization.
+          Always confirm the actual process before applying.
+        </div>
+
+      </div>
+    </section>
+
+    <!-- GET INVOLVED -->
+    <section class="section mission-section" id="get-involved">
+      <div class="container">
+
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">KINDNESS LOOKS GOOD ON YOU</span>
+            <h2>Be part of their <span>story.</span></h2>
+            <p class="section-description">
+              Not ready to adopt? There are still so many ways
+              to make a difference in an animal's life.
+            </p>
+          </div>
+        </div>
+
+        <div class="mission-grid">
+
+          <article class="mission-card mission-volunteer">
+            <div class="mission-icon">🙌</div>
+            <span class="mission-tag">GIVE YOUR TIME</span>
+            <h3>Volunteer with us.</h3>
+            <p>
+              Help with rescue activities, community events,
+              animal care, and outreach.
+            </p>
+            <a href="#contact" class="button button-dark">
+              Become a Volunteer <span aria-hidden="true">→</span>
+            </a>
+          </article>
+
+          <article class="mission-card mission-foster">
+            <div class="mission-icon">🏡</div>
+            <span class="mission-tag">OPEN YOUR HOME</span>
+            <h3>Become a foster.</h3>
+            <p>
+              Offer a temporary safe space while a rescued animal
+              waits for a permanent family.
+            </p>
+            <a href="#contact" class="button button-dark">
+              Learn About Fostering <span aria-hidden="true">→</span>
+            </a>
+          </article>
+
+          <article class="mission-card mission-donate">
+            <div class="mission-icon">💚</div>
+            <span class="mission-tag">SHARE THE LOVE</span>
+            <h3>Support a rescue.</h3>
+            <p>
+              Help provide food, supplies, veterinary care,
+              and other essential needs.
+            </p>
+            <a href="#donate" class="button button-dark">
+              Ways to Donate <span aria-hidden="true">→</span>
+            </a>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- WAYS TO HELP -->
+    <section class="section help-section" id="help">
+      <div class="container help-grid">
+
+        <div class="help-content">
+          <span class="eyebrow">EVERY LITTLE THING COUNTS</span>
+          <h2>You don't need to adopt to <span>make a difference.</span></h2>
+          <p class="section-description">
+            Compassion comes in many forms. Even small acts
+            can help an animal take one step closer to a better life.
+          </p>
+
+          <ul class="help-list">
+            <li><span>✓</span> Share adoption posts with your community</li>
+            <li><span>✓</span> Donate food, blankets, and basic supplies</li>
+            <li><span>✓</span> Help transport animals when needed</li>
+            <li><span>✓</span> Join community rescue and adoption events</li>
+          </ul>
+
+          <a href="#contact" class="button button-primary">
+            Get Involved <span aria-hidden="true">→</span>
+          </a>
+        </div>
+
+        <div class="help-visual">
+          <img
+            src="https://easylockpetstore.com/wp-content/uploads/2025/01/%E5%8D%B0%E5%BA%A6%E6%95%91%E7%8B%971-1024x745.jpg"
+            alt="A rescued animal receiving care"
+            loading="lazy"
+          >
+          <div class="help-quote">
+            <span class="quote-mark">“</span>
+            <p>
+              Kindness is never too small when it means
+              the world to someone.
+            </p>
+            <span class="quote-paw" aria-hidden="true">🐾</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- DONATIONS -->
+    <section class="donation-section" id="donate">
+      <div class="container donation-inner">
+
+        <div class="donation-icon" aria-hidden="true">♡</div>
+
+        <div class="donation-content">
+          <span class="eyebrow">HELP MAKE SECOND CHANCES POSSIBLE</span>
+          <h2>A little help can mean <span>a whole new life.</span></h2>
+          <p>
+            Donations can support food, supplies, veterinary care,
+            and the everyday needs of rescued animals.
+          </p>
+        </div>
+
+        <a href="#contact" class="button button-light">
+          Ask How to Donate <span aria-hidden="true">→</span>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- IMPACT -->
+    <section class="section impact-section" id="impact">
+      <div class="container">
+
+        <div class="section-heading centered-heading">
+          <span class="eyebrow">THE HEART BEHIND THE PAWS</span>
+          <h2>Every effort makes an <span>impact.</span></h2>
+          <p class="section-description">
+            Rescue work takes compassion, consistency, and a community
+            willing to show up for animals in need.
+          </p>
+        </div>
+
+        <div class="impact-grid">
+          <div class="impact-card">
+            <span class="impact-icon">🐾</span>
+            <strong>XX</strong>
+            <span>Animals Rescued</span>
+          </div>
+
+          <div class="impact-card">
+            <span class="impact-icon">🏡</span>
+            <strong>XX</strong>
+            <span>Pets Rehomed</span>
+          </div>
+
+          <div class="impact-card">
+            <span class="impact-icon">💚</span>
+            <strong>XX</strong>
+            <span>Animals in Care</span>
+          </div>
+
+          <div class="impact-card">
+            <span class="impact-icon">🙌</span>
+            <strong>XX</strong>
+            <span>Helping Hands</span>
+          </div>
+        </div>
+
+        <p class="impact-note">
+          These figures are placeholders. Replace them with accurate,
+          documented numbers before publishing.
+        </p>
+
+        <div class="transparency-box">
+          <span class="transparency-icon">✳</span>
+          <div>
+            <h3>Care with transparency.</h3>
+            <p>
+              We believe supporters deserve clear updates about rescue work,
+              animal welfare, and how contributions are used.
+              Share verified updates and reports here as they become available.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- EVENTS -->
+    <section class="section events-section" id="events">
+      <div class="container">
+
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">COME BE PART OF SOMETHING GOOD</span>
+            <h2>What's happening <span>at Furs.</span></h2>
+            <p class="section-description">
+              Meet the community, lend a hand, and help us spread kindness.
+            </p>
+          </div>
+
+          <a href="#contact" class="text-link">
+            Ask about events <span aria-hidden="true">→</span>
+          </a>
+        </div>
+
+        <div class="events-grid">
+
+          <article class="event-card">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUeP4T6CaLNg-LimmriGp8z1z_tw33NnHn78oDVSE-f3I93NFqbwRqKWia&s=10"
+              alt="An animal adoption event"
+              loading="lazy"
+            >
+            <div class="event-content">
+              <span class="event-category">ADOPTION</span>
+              <h3>Meet Your New Best Friend</h3>
+              <p>
+                Learn about adoption and meet animals looking
+                for their forever homes.
+              </p>
+              <div class="event-meta">
+                <span>📅 Date to be announced</span>
+                <span>📍 Location to be announced</span>
+              </div>
+              <a href="#contact" class="text-link">
+                Ask for details <span aria-hidden="true">→</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="event-card">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGtWNJGxYlWd1zwODA91Bke-oJxuxAaOcVuD5S0T7XRSQu68K7i1lzZimO&s=10"
+              alt="Volunteers helping animals"
+              loading="lazy"
+            >
+            <div class="event-content">
+              <span class="event-category">VOLUNTEER</span>
+              <h3>Give a Little Love</h3>
+              <p>
+                Discover ways to support animal care and help
+                with community activities.
+              </p>
+              <div class="event-meta">
+                <span>📅 Date to be announced</span>
+                <span>📍 Location to be announced</span>
+              </div>
+              <a href="#contact" class="text-link">
+                Get involved <span aria-hidden="true">→</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="event-card">
+            <img
+              src="https://images.squarespace-cdn.com/content/v1/58a387b82e69cf5baf9205d0/1591825892300-VL2H415CLLH9UX738B8N/donations1.jpg"
+              alt="Pet food and supplies for donation"
+              loading="lazy"
+            >
+            <div class="event-content">
+              <span class="event-category">DONATION DRIVE</span>
+              <h3>Share the Essentials</h3>
+              <p>
+                Help gather supplies that can make rescued
+                animals safer and more comfortable.
+              </p>
+              <div class="event-meta">
+                <span>📅 Date to be announced</span>
+                <span>📍 Location to be announced</span>
+              </div>
+              <a href="#contact" class="text-link">
+                Ask how to help <span aria-hidden="true">→</span>
+              </a>
+            </div>
+          </article>
+
+        </div>
+
+        <p class="events-note">
+          Event titles and details are examples only. Publish actual events
+          after dates, venues, and organizers have been confirmed.
+        </p>
+
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section faq-section" id="faqs">
+      <div class="container faq-grid">
+
+        <div class="faq-intro">
+          <span class="eyebrow">GOOD QUESTIONS, CARING HEARTS</span>
+          <h2>Things you might be <span>wondering.</span></h2>
+          <p class="section-description">
+            Thinking about adopting or helping out?
+            Here are some answers to get you started.
+          </p>
+
+          <div class="faq-contact">
+            <span class="faq-contact-icon">💬</span>
+            <div>
+              <strong>Still have questions?</strong>
+              <a href="#contact">Talk to us →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-list">
+
+          <details class="faq-item">
+            <summary>What do I need to adopt a pet?</summary>
+            <p>
+              Requirements depend on the rescue organization. You may be
+              asked about your living situation, ability to provide care,
+              and plans for keeping the animal safe. Contact the organization
+              for its actual requirements.
+            </p>
+          </details>
+
+          <details class="faq-item">
+            <summary>Is there an adoption fee?</summary>
+            <p>
+              Some organizations charge an adoption fee to help cover
+              veterinary care, vaccinations, sterilization, or other expenses.
+              Ask the organization about its fees and what they include.
+            </p>
+          </details>
+
+          <details class="faq-item">
+            <summary>Will my home need to be checked?</summary>
+            <p>
+              Some rescues conduct home visits or virtual checks, while
+              others use different screening procedures. Confirm the process
+              with the organization handling the adoption.
+            </p>
+          </details>
+
+          <details class="faq-item">
+            <summary>Can I foster instead of adopting?</summary>
+            <p>
+              Fostering can be a way to provide temporary care while an animal
+              waits for a permanent home. Availability, duration, and
+              responsibilities depend on the rescue program.
+            </p>
+          </details>
+
+          <details class="faq-item">
+            <summary>How can I volunteer?</summary>
+            <p>
+              You can ask about opportunities such as animal care,
+              events, transport, community outreach, and supply drives.
+              The organization can explain its current needs and requirements.
+            </p>
+          </details>
+
+          <details class="faq-item">
+            <summary>What items can I donate?</summary>
+            <p>
+              Possible items include pet food, blankets, towels, cleaning
+              supplies, carriers, and other animal-care essentials.
+              Check with the rescue first to confirm what is needed
+              and what it can accept.
+            </p>
+          </details>
+
+          <details class="faq-item">
+            <summary>What should I do if I find an injured animal?</summary>
+            <p>
+              Keep yourself safe, avoid handling an injured animal unless
+              necessary, and contact a local veterinarian, animal welfare
+              group, or appropriate local authority for guidance.
+            </p>
+          </details>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+
+        <div class="contact-content">
+          <span class="eyebrow">LET'S MAKE A DIFFERENCE TOGETHER</span>
+          <h2>Have a little love <span>to share?</span></h2>
+          <p class="section-description">
+            Whether you're interested in adopting, fostering,
+            volunteering, or donating, we'd love to hear from you.
+          </p>
+
+          <div class="contact-details">
+
+            <div class="contact-detail">
+              <span class="contact-detail-icon">✉</span>
+              <div>
+                <span>Email us</span>
+                <a href="mailto:hello@furs.org">hello@furs.org</a>
+              </div>
+            </div>
+
+            <div class="contact-detail">
+              <span class="contact-detail-icon">📍</span>
+              <div>
+                <span>Our location</span>
+                <p>Location to be announced</p>
+              </div>
+            </div>
+
+          </div>
+
+          <p class="contact-placeholder-note">
+            Contact details above are examples. Replace them with
+            the organization's verified information.
+          </p>
+        </div>
+
+        <div class="contact-form-card">
+          <h3>Send us a message.</h3>
+          <p>Tell us how you'd like to get involved.</p>
+
+          <form id="contactForm">
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Your name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Enter your name"
+                  autocomplete="name"
+                  required
+                >
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email address</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="you@example.com"
+                  autocomplete="email"
+                  required
+                >
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="interest">I'm interested in</label>
+              <select id="interest" name="interest" required>
+                <option value="" disabled selected>Select an option</option>
+                <option value="adoption">Adopting a pet</option>
+                <option value="fostering">Fostering</option>
+                <option value="volunteering">Volunteering</option>
+                <option value="donation">Donating</option>
+                <option value="other">Something else</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Your message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                placeholder="Tell us a little more..."
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="button button-primary form-submit">
+              Send Message <span aria-hidden="true">→</span>
+            </button>
+
+            <p class="form-notice" id="formNotice" role="status">
+              This demo form is not connected to a messaging service yet.
+            </p>
+
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="final-cta">
+      <div class="container final-cta-inner">
+        <div>
+          <span class="eyebrow">A BETTER WORLD STARTS WITH US</span>
+          <h2>Be the reason a tail wags today.</h2>
+        </div>
+
+        <a href="#adopt" class="button button-light">
+          Meet Your New Friend <span aria-hidden="true">→</span>
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-main">
+
+      <div class="footer-brand-column">
+        <a href="#home" class="brand footer-brand">
+          <span class="brand-icon" aria-hidden="true">🐾</span>
+          <span>furs<span class="brand-period">.</span></span>
+        </a>
+
+        <p>
+          Every paw has a story. Help us make the next chapter
+          a little brighter.
+        </p>
+
+        <div class="social-links">
+          <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">f</a>
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">ig</a>
+          <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer" aria-label="TikTok">tk</a>
+        </div>
+
+        <p class="footer-small-note">
+          Replace these links with the organization's official social pages.
+        </p>
+      </div>
+
+      <div class="footer-column">
+        <h3>Explore</h3>
+        <a href="#home">Home</a>
+        <a href="#adopt">Meet Our Rescues</a>
+        <a href="#how-to-adopt">How to Adopt</a>
+        <a href="#impact">Our Impact</a>
+        <a href="#events">Events</a>
+      </div>
+
+      <div class="footer-column">
+        <h3>Get Involved</h3>
+        <a href="#get-involved">Volunteer</a>
+        <a href="#get-involved">Foster</a>
+        <a href="#donate">Donate</a>
+        <a href="#help">Other Ways to Help</a>
+        <a href="#faqs">FAQs</a>
+      </div>
+
+      <div class="footer-cta">
+        <span class="footer-paw" aria-hidden="true">🐾</span>
+        <h3>Love changes everything.</h3>
+        <p>Help a rescue find the home they deserve.</p>
+        <a href="#adopt" class="button button-light">
+          Start Here <span aria-hidden="true">→</span>
+        </a>
+      </div>
+
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© <span id="currentYear"></span> Furs. All rights reserved.</p>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+</body>
+</html>
